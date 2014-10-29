@@ -1,0 +1,52 @@
+/* UW HTML5 PCE CSS - Thomas Evenson */
+html {
+    font-family:monospace;
+    font-size:16px;
+}
+body {
+        background-color: whitesmoke;
+}
+h1 {
+    font-size: 4em;
+    margin:inherit;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    margin: inherit;
+}
+h3 {
+    margin-bottom: 14px;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:after {
+    content: " | ";
+}
+nav a:last-child:after {
+    content: "";
+}
+li {
+    min-height:250px;
+    height:auto;
+}
+p {
+    font-size: 0.9em;
+}
+figure {
+    float:right
+}
+img {
+    border: 1px solid black;
+}
+figcaption {
+    font-size: 0.8em;
+    text-align: left;
+}
+footer {
+    font-size: 0.7em;
+}
