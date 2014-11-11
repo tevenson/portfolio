@@ -4,8 +4,11 @@ html {
     font-size:16px;
 }
 body {
-        background-color: whitesmoke;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
+
 h1 {
     font-size: 4em;
     margin:inherit;
