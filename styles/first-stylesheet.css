@@ -25,7 +25,8 @@ nav {
     text-align: center;
 }
 nav a {
-    text-decoration: none;
+    /* Added for accessibility */
+    text-decoration: underline;
 }
 nav a:after {
     content: " | ";
